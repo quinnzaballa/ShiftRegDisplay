@@ -194,6 +194,19 @@ public:
      */
     void clear();
 
+//  **************************************************************************************
+
+// constructive...
+    /**
+     * @brief write to shift register with formatting...
+     *
+     * @param format format to be done usually in string format..
+     *
+     * @param ... format indentifiers
+     *
+     */
+    void printstrf(const char* format, ...);
+
     // shiftregdriver | public  | end   // ####****####
 
 //  **************************************************************************************
